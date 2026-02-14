@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="c1">
+  <pre class="nc1" style="color: brown; font-size: 45px;">
+YYY nnnn tt
+ rrrr tttt!
+    </pre>
+</div>
+<div class="c1">
+<img src="img/letter.png" alt="old text" style="width: autopx; height: 150px; position: relative; top: -50px;"  >
+</div>
+<button class="button" id="mainbutton">Readd!</button>
+
+<div id="modal-o" class="hidden">
+    <div id="modal-s">
+        <h2>Placeholder</h2>
+        <div id="modal-c">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas rerum labore fuga architecto nisi beatae voluptatibus exercitationem! Excepturi fugiat, inventore accusamus enim aperiam necessitatibus nulla iste voluptate, earum maiores debitis!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, quas amet quis qui reprehenderit ducimus est itaque pariatur eligendi velit facilis, hic molestias architecto perspiciatis quos nam fuga? Maiores, officia!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ipsam adipisci magni expedita repellendus? Laborum quo, animi neque aspernatur nisi fugit corrupti incidunt officia eos odio numquam tempore dignissimos error?</p>
+        </div>
+        <button id="closebutton">Close</button>
+    </div>
+</div>
+<button class="button" id="to_question">NextPage>></button>
+<script>
+    const mainbutton = document.getElementById("mainbutton");
+    const closebutton = document.getElementById("closebutton");
+    const o = document.getElementById("modal-o");
+    const next  = document.getElementById("to_question");
+
+    mainbutton.onclick = function(){
+        o.classList.remove("hidden");
+    };
+
+    closebutton.onclick = function(){
+        o.classList.add("hidden")
+    };
+    next.onclick = function(){
+        window.location.href = "page3.html"
+    }
+</script>
+</body>
+</html>
