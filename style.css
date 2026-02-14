@@ -31,7 +31,8 @@ body{
 }
 #teddy{
     
-    
+    width: 300px;
+    height: auto;
     position: relative;
     
 }
