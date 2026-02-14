@@ -1,0 +1,27 @@
+body{
+    background: linear-gradient(
+        to right,
+        rgb(175, 72, 72),
+        rgb(136, 10, 221)
+    );
+}
+
+
+@font-face {
+    font-family: "Nicechunky";
+    src: url(Fonts/NiceChunky.ttf) format('truetype'); 
+}
+
+.nc1{
+    font-family: 'Nicechunky', sans-serif;
+}
+#first_text{
+    display: grid;
+    place-items: center;
+    min-height: 100dvh;
+    color: rgb(87, 15, 15);
+    font-size: 45px;
+    position: relative;
+    top: -230px;
+
+}
