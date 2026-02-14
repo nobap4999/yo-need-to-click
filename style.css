@@ -12,16 +12,26 @@ body{
     src: url(Fonts/NiceChunky.ttf) format('truetype'); 
 }
 
+#c1{
+    display: grid;
+    place-items: center;
+}
+
 .nc1{
     font-family: 'Nicechunky', sans-serif;
 }
 #first_text{
-    display: grid;
-    place-items: center;
-    min-height: 100dvh;
+    
+    
     color: rgb(87, 15, 15);
     font-size: 45px;
     position: relative;
-    top: -230px;
+    
 
+}
+#teddy{
+    
+    
+    position: relative;
+    
 }
