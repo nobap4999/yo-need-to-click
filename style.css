@@ -6,6 +6,33 @@ body{
     );
 }
 
+#button1{
+    border:none; 
+    outline: none; 
+    background-color: rgb(248, 8, 8);
+    border-radius:20px; 
+    font-size: 25px;
+    color: white;
+    padding: 15px 40px;
+    cursor: pointer; 
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(145deg, #8b1a1a, #570f0f);
+    transition: all 0.3s ease;
+    display: block;
+    margin: 20px auto;
+    position: relative;
+    
+}
+#button1:hover{
+        transform:translateY(-3px);
+        box-shadow: 0 12px 20px rgba(0, 0, 0, 0.4);
+        background: linear-gradient(145deg, #a52323, #7a1515);
+    }
+#button1:active{
+    transform:translateY(2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: all 0.1s ease;
+}
 
 @font-face {
     font-family: "Nicechunky";
